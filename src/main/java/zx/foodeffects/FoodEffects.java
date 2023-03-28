@@ -14,11 +14,14 @@ public final class FoodEffects extends JavaPlugin {
         return eeConfig;
     }
     public L l;
+    public CS cs;
 
     @Override
     public void onEnable() {
         System.out.println("FoodEffects 1.0");
         this.l = new L(this);
+        this.cs = new CS(this);
+        cs.svf();
         if (!eeFile.exists()) {
             saveResource("ee.yml", false);
         }
