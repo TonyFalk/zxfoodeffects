@@ -1,0 +1,15 @@
+VanillaFood:
+  Potato:
+    PotionEffect:
+      EffectType: 1
+      Long: 15
+      Power: 1
+  Apple:
+    PotionEffect:
+      EffectType: 4
+      Long: 33
+      Power: 1
+    Thunder:
+      Radius: 6
+      Amount: 3
+      PlayerMagnet: false

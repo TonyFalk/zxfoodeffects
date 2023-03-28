@@ -1,0 +1,7 @@
+name: ZXFoodEffects
+version: '${project.version}'
+main: zx.foodeffects.FoodEffects
+api-version: 1.19
+authors: [ Tonyfalk, davidzx1400 ]
+description: applies effects on consuming goodies
+website: fearteamplays@gmail.com

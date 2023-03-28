@@ -1,0 +1,106 @@
+#
+# Numbers can be from X - Y amount i should appear like (1-10) so it wll be random in range
+#
+#
+#
+# Explosion
+# SIZE 1/2/3
+# DAMAGE is explosion damage to users (Number)
+# DamageBlocks true or false if set to true it damage nearby blocks
+#
+#
+# Thunder
+# Radius is the radius how far thunders will go (Number)
+# Amount is the amount of thunders will be executed (Number)
+# PlayerMagnet true or false if set to true Thunders will 100% hit only players in radius
+#
+#
+# TeleportationShuffle
+# Vert is the range of Vert (Number)
+# Hort is the range of Hort (Number)
+# Solid true or false if set to true will always land on Solid block
+#
+#
+#  PotionEffect
+#  EffectType Effect Number (Number)
+# 1 - Speed
+# 2 - Slowness
+# 3 - Haste
+# 4 - Mining Fatigue
+# 5 - Strength
+# 6 - Jump Boost
+# 7 - Nausea
+# 8 - Regeneration
+# 9 - Resistance
+# 10 - Fire Resistance
+# 11 - Water Breathing
+# 12 - Invisibility
+# 13 - Blindness
+# 14 - Night Vision
+# 15 - Hunger
+# 16 - Weakness
+# 17 - Poison
+# 18 - Wither
+# 19 - Health Boost
+# 20 - Absorption
+# 21 - Saturation
+# 22 - Glowing
+# 23 - Levitation
+# 24 - Luck
+# 25 - Bad Luck
+# Long - how long it will be in seconds (Number)
+# Power - how strong the effect is (Number)
+#
+#
+# SetHealth
+# SetHunger
+# + = Plus
+# - = Minus
+# %F% = Player Food Amount
+# %H% = Player Health Amount
+# %X% = Player Exprience level Amountt
+# SetTime
+# Time minecraft time in Number (Number)
+Explosion:
+  Size: S
+  DamageUser: 5
+  DamageNearbyUsers: 15
+  DamageBlocks: false
+
+Thunder:
+  Radius: 6
+  Amount: 3
+  PlayerMagnet: false
+
+TeleportationShuffle:
+  Vert: 10-30
+  Hart: 10-30
+  Solid: true
+
+PotionEffect:
+  EffectType: 1
+  Long: 15
+  Power: 1
+
+SetHealth:
+  Amount: PCH + 4
+
+SetHunger:
+  Amount: PCH + 4;
+
+SummonMobs:
+  Radius: 6
+  Type: CREEPER
+  Amount: 3
+
+SetTime:
+  Time: 300
+
+Teleport:
+  X: 0
+  Y: 0
+  Z: 0
+  WORLD: world
+
+Burn:
+  Long: 10
